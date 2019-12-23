@@ -1,0 +1,20 @@
+.LD3985M33R :1 ;LD3985M33R, Low Dropout Voltage Regulator, 0.55A, 3.3V +/-2%, 2.5 to 6Vin, 5-Pin SOT-23
+SOT95P280X145-5N
+*STM IC
+*NGS
+*PLB 1="VIN" 2="GND" 3="INHIBIT" 4="BYPASS" 5="VOUT"
+*MXP 5
+*DFN LD3985M33R
+~!Manufacturer_Name (STMicroelectronics)
+~!Manufacturer_Part_Number (LD3985M33R)
+~!Mouser Part Number (511-LD3985M33R)
+~!Link Mouser Price/Stock (https://www.mouser.com/Search/Refine.aspx?Keyword=511-LD3985M33R)
+~!RS Part Number (6868802P)
+~!Link RS Price/Stock (http://uk.rs-online.com/web/p/products/6868802P)
+~!Allied_Number (70390246)
+~!Link Allied Price/Stock (http://www.alliedelec.com/stmicroelectronics-ld3985m33r/70390246/)
+~!Link Datasheet (http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00003395.pdf)
+~!Height (1.45mm)
+~!3D_Model (LD3985M33R)
+LD3985M33R
+1.1!I 2.1!G 3.1!I 4.1!U 5.1!Y 

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LD3985M33R
+D LD3985M33R, Low Dropout Voltage Regulator, 0.55A, 3.3V +/-2%, 2.5 to 6Vin, 5-Pin SOT-23
+K
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00003395.pdf
+$ENDCMP
+#
+#End Doc Library

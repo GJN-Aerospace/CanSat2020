@@ -1,0 +1,30 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model LD3985M33R
+#/2223/189769/2.44/5/3/Integrated Circuit
+DEF LD3985M33R IC 0 30 Y Y 1 F N
+F0 "IC" 1250 300 50 H V L CNN
+F1 "LD3985M33R" 1250 200 50 H V L CNN
+F2 "SOT95P280X145-5N" 1250 100 50 H I L CNN
+F3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00003395.pdf" 1250 0 50 H I L CNN
+F4 "LD3985M33R, Low Dropout Voltage Regulator, 0.55A, 3.3V +/-2%, 2.5 to 6Vin, 5-Pin SOT-23" 1250 -100 50 H I L CNN "Description"
+F5 "1.45" 1250 -200 50 H I L CNN "Height"
+F6 "STMicroelectronics" 1250 -300 50 H I L CNN "Manufacturer_Name"
+F7 "LD3985M33R" 1250 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "511-LD3985M33R" 1250 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=511-LD3985M33R" 1250 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "6868802P" 1250 -700 50 H I L CNN "RS Part Number"
+F11 "http://uk.rs-online.com/web/p/products/6868802P" 1250 -800 50 H I L CNN "RS Price/Stock"
+F12 "70390246" 1250 -900 50 H I L CNN "Allied_Number"
+F13 "http://www.alliedelec.com/stmicroelectronics-ld3985m33r/70390246/" 1250 -1000 50 H I L CNN "Allied Price/Stock"
+DRAW
+X VIN 1 0 0 200 R 50 50 0 0 I
+X GND 2 0 -100 200 R 50 50 0 0 W
+X INHIBIT 3 0 -200 200 R 50 50 0 0 I
+X BYPASS 4 1400 0 200 L 50 50 0 0 U
+X VOUT 5 1400 -100 200 L 50 50 0 0 O
+P 5 0 1 6 200 100 1200 100 1200 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

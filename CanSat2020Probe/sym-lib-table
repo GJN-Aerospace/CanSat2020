@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name New_Library_0)(type Legacy)(uri ${KIPRJMOD}/Libraries/New_Library_0.lib)(options "")(descr ""))
+  (lib (name CanSat2020Probe-rescue)(type Legacy)(uri ${KIPRJMOD}/CanSat2020Probe-rescue.lib)(options "")(descr ""))
+)

@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TESEO-LIV3F
+D GPS Modules Tiny GNSS module
+F https://www.st.com/resource/en/datasheet/teseo-liv3f.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,15 @@
+Řádek č.;Objednací kód;Vyhovuje směrnici RoHS?;Č. dílu;Poznámky;Množství;Číslo dílu výrobce;Název výrobce;Výrobce / Popis;Dostupnost;Jednotková cena;Cena položky na řádku;Cena po slevě;Odkaz
+1;2433469;RoHS: YES / FTALÁTY: YES;;;1.0;NUCLEO-F411RE;STMICROELECTRONICS;STMICROELECTRONICS  Vývojová Deska, STM32 Nucleo-64, STM32F411RE MCU, Arduino Uno & Morpho Připojení;373;327.1630;327.16;;https://cz.farnell.com/stmicroelectronics/nucleo-f411re/dev-board-cortex-m4-mcu/dp/2433469#anchorTechnicalDOCS
+2;2456967;RoHS: YES / FTALÁTY: YES;;;2.0;STM32F411RET6;STMICROELECTRONICS;STMICROELECTRONICS  ARM MCU, Režim Dávkového Sběru, STM32 Family STM32F4 Series Microcontrollers, ARM Cortex-M4, 32bitů;1373;190.5460;381.09;;https://cz.farnell.com/stmicroelectronics/stm32f411ret6/mcu-32bit-cortex-m4-100mhz-lqfp/dp/2456967?ost=STM32F411RET&ddkey=https%3Acz-CZ%2FElement14_Czech_Republic%2Fsearch
+3;2401856;RoHS: NA / FTALÁTY: TBA;;;1.0;103456A-1S-3M;BAK;BAK  Dobíjecí Baterie, 3.7 V, Lithium Ion, 2.05 Ah, Konektor;3441;551.8630;551.86;;https://cz.farnell.com/bak/103456a-1s-3m/battery-lithium-ion-3-7v-2050mah/dp/2401856
+4;2849790;RoHS: YES / FTALÁTY: YES;;;4.0;LDS3985M33R;STMICROELECTRONICS;STMICROELECTRONICS  Pevný LDO Napěťový Regulátor, 2,5V až 6V, 150 mV pokles, 3,3V/300mA výstup, SOT-23-5;3267;19.0290;76.12;;https://cz.farnell.com/stmicroelectronics/lds3985m33r/ldo-fixed-3-3v-0-3a-sot-23-5/dp/2849790?ost=2849790&ddkey=https%3Acz-CZ%2FElement14_Czech_Republic%2Fsearch
+5;2913959;RoHS: YES / FTALÁTY: YES;;;2.0;146168-0001;MOLEX;MOLEX  Anténa, GPS, 1,578 GHz až 1,572 GHz, 5,5 dBi Zisk, SMD, Pravostranná Kruhová;1570;45.9670;91.93;;https://cz.farnell.com/molex/146168-0001/gps-antenna-rhc-1-572-1-578ghz/dp/2913959?st=ant%C3%A9na%20gps
+6;3132401;RoHS: YES / FTALÁTY: YES;;;2.0;TESEO-LIV3R;STMICROELECTRONICS;STMICROELECTRONICS  TINY ROM GNSS MODULE, LCC-18;70;338.2060;676.41;;https://cz.farnell.com/stmicroelectronics/teseo-liv3r/tiny-rom-gnss-module-lcc-18/dp/3132401
+7;2759293;RoHS: YES / FTALÁTY: TBA;;;2.0;RFM69HW-868S2;HOPERF;HOPERF  Modul Automat. Odečtu Měřiče, GFSK, GMSK, MSK, OOK, 300Kbps, 868MHz, -120dBm, 1.8V až 3.6V, SPI;110;272.2080;544.42;;https://cz.farnell.com/hoperf/rfm69hw-868s2/ism-transceiver-868mhz-fsk-ook/dp/2759293
+8;9713794;RoHS: YES / FTALÁTY: YES;;;3.0;LFXTAL003151;IQD FREQUENCY PRODUCTS;IQD FREQUENCY PRODUCTS  Krystal, 8 MHz, HC49, 50 ppm, 16 pF, 30 ppm, Série HC-49/4HSMX;3678;14.5090;43.53;;https://cz.farnell.com/iqd-frequency-products/lfxtal003151/crystal-smd-8mhz/dp/9713794
+;;;;;;;;;;;;;
+;;;;;;;Dílčí součet;2692.52;;;;;
+;;;;;;;Celkový součet zboží;2692.52;;;;;
+;;;;;;;Dodání;130.00;;;;;
+;;;;;;;DPH;592.73;;;;;
+;;;;;;;Celkem;3415.25;;;;;

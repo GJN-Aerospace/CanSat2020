@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Molex_1461680001)(type KiCad)(uri "${KIPRJMOD}/Libraries/Molex 1461680001/Molex_1461680001.pretty")(options "")(descr ""))
+)

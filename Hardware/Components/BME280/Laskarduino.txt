@@ -1,0 +1,28 @@
+https://www.laskarduino.cz/arduino-senzor-tlaku--teploty-a-vlhkosti-bme280/
+
+Detailní popis produktu
+
+Senzor tlaku, teploty a vlhkosti BME280
+
+Senzor BME280 je kombinací digitálního teploměru, tlakoměru a vhlhkoměru, který je možné připojit k Arduinu pomocí I2C sběrnice.
+
+Specifikace:
+
+Použitý senzor: BME280
+Napájecí napětí: 1.8V až 5V
+Provozní rozsah:
+Tlak: 300-1100hPa
+Vlhkost: 0 až 100%
+Teplota: -40 až +85° C
+Rozlišení:
+Teplota: 0.01° C
+Vlhkost: 0,008%
+Tlak: 0.18Pa
+Přesnost:
+Teplota: + 1° C
+Vlhkost: + 3%
+Tlak: + -1Pa
+Rozměr: 15x12mm
+Součástí dodávky:
+
+1ks  Senzor tlaku, teploty a vlhkosti BME280

@@ -1,0 +1,25 @@
+https://www.laskarduino.cz/arduino-9dof-gyroskop-akcelerometr-magnetometr-mpu-9250-spi-iic/
+
+Detailní popis produktu
+
+3-osý gyroskop + 3 osý akcelerometr + 3-osý magnetometr MPU-9250
+
+Modul gyroskopu s akcelerometrem pro mikrokotroléry.
+
+zabudovaný 16-bitový AD převodník, stabilizátor (možno napájet 3,3V nebo 5V), I2C komunikace
+
+Specifikace:
+
+Čip: MPU-9250
+Napájení: 3 - 5VDC
+Rozsah gyroskopu: + 250 500 1000 2000°/s
+Rozsah zrychlení: ± 2 ± 4 ± 8 ± 16g
+Rozsah Magnetometru: +/-4800uF
+Komunikační standard: IIC / SPI
+16 bitový AD převodník
+Rozměry: 25x15x1.2mm
+Váha: 2g
+Součástí dodávky:
+
+1ks  9DOF Gyroskop + Akcelerometr + Magnetometr MPU-9250
+Zdroje:

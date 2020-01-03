@@ -1,4 +1,4 @@
-update=2019 December 26, Thursday 15:05:34
+update=2020 January 03, Friday 16:30:46
 version=1
 last_client=kicad
 [general]
@@ -239,7 +239,7 @@ dPairViaGap=0.25
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=
+PlotDirectoryName=/Users/jakubvavra/Documents/GitHub/CanSat2020/Probe/Hardware/CanSat2020ProbeS/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew

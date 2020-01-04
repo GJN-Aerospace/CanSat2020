@@ -22,7 +22,7 @@ Přesnost:
 Teplota: + 1° C
 Vlhkost: + 3%
 Tlak: + -1Pa
-Rozměr: 15x12mm
+Rozměr: 15x12mm (spíš 13x10mm-podle našich měření)
 Součástí dodávky:
 
 1ks  Senzor tlaku, teploty a vlhkosti BME280

@@ -94,7 +94,7 @@ U 1 1 5DCC21C4
 P 6500 4850
 F 0 "J2" H 6350 5500 50  0000 L CNN
 F 1 "MPU-9250" H 6350 5400 50  0000 L CNN
-F 2 "Switch:MPU-9250" H 6500 4850 50  0001 C CNN
+F 2 "Switch:MPU-9250-4pin" H 6500 4850 50  0001 C CNN
 F 3 "~" H 6500 4850 50  0001 C CNN
 	1    6500 4850
 	1    0    0    -1  
@@ -313,19 +313,6 @@ F 3 "" H 9150 900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9150 900  9150 950 
-Wire Wire Line
-	9250 2050 9250 2200
-$Comp
-L power:GND #PWR0115
-U 1 1 5DE007C8
-P 9250 2200
-F 0 "#PWR0115" H 9250 1950 50  0001 C CNN
-F 1 "GND" H 9255 2027 50  0000 C CNN
-F 2 "" H 9250 2200 50  0001 C CNN
-F 3 "" H 9250 2200 50  0001 C CNN
-	1    9250 2200
-	1    0    0    -1  
-$EndComp
 $Comp
 L Connector:Conn_Coaxial J5
 U 1 1 5DDA853E
@@ -394,10 +381,6 @@ Wire Wire Line
 	8650 1350 8250 1350
 Wire Wire Line
 	8650 1450 8250 1450
-Text Label 8250 1450 0    50   ~ 0
-MOSI
-Text Label 8250 1350 0    50   ~ 0
-MISO
 Wire Wire Line
 	8650 1250 8250 1250
 Text Label 8250 1250 0    50   ~ 0
@@ -406,10 +389,6 @@ Wire Wire Line
 	8650 1550 8250 1550
 Text Label 8250 1550 0    50   ~ 0
 CS_RAD
-Wire Wire Line
-	9650 1350 9900 1350
-Text Label 9900 1350 0    50   ~ 0
-DIO0
 Wire Wire Line
 	5450 1300 5200 1300
 Wire Wire Line
@@ -550,17 +529,6 @@ $EndComp
 NoConn ~ 8650 1750
 NoConn ~ 9650 1850
 NoConn ~ 9650 1750
-$Comp
-L RF_Module:RFM69HW U2
-U 1 1 5DC7018C
-P 9150 1550
-F 0 "U2" H 8800 2150 50  0000 C CNN
-F 1 "RFM69HW" H 8800 2050 50  0000 C CNN
-F 2 "RF_Module:HOPERF_RFM69HW" H 9150 950 50  0001 C CNN
-F 3 "https://www.hoperf.com/data/upload/portal/20181127/5bfcbb56f1fd7.pdf" H 9150 1250 50  0001 C CNN
-	1    9150 1550
-	1    0    0    -1  
-$EndComp
 NoConn ~ 9650 1650
 NoConn ~ 9650 1550
 NoConn ~ 9650 1450
@@ -1328,6 +1296,38 @@ F 1 "STM32F411RETx" H 2750 1650 50  0000 C CNN
 F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 2800 1850 50  0001 R CNN
 F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00115249.pdf" H 3400 3550 50  0001 C CNN
 	1    3400 3550
+	1    0    0    -1  
+$EndComp
+Text Label 9900 1350 0    50   ~ 0
+DIO0
+Wire Wire Line
+	9650 1350 9900 1350
+Text Label 8250 1450 0    50   ~ 0
+MOSI
+Text Label 8250 1350 0    50   ~ 0
+MISO
+$Comp
+L power:GND #PWR0115
+U 1 1 5DE007C8
+P 9250 2200
+F 0 "#PWR0115" H 9250 1950 50  0001 C CNN
+F 1 "GND" H 9255 2027 50  0000 C CNN
+F 2 "" H 9250 2200 50  0001 C CNN
+F 3 "" H 9250 2200 50  0001 C CNN
+	1    9250 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 2050 9250 2200
+$Comp
+L RF_Module:RFM69W U2
+U 1 1 5E226D7C
+P 9150 1550
+F 0 "U2" H 8850 2200 50  0000 C CNN
+F 1 "RFM69W" H 8850 2100 50  0000 C CNN
+F 2 "RF_Module:HOPERF_RFM69HW" H 9150 950 50  0001 C CNN
+F 3 "https://www.hoperf.com/data/upload/portal/20181127/5bfcbe34756e1.pdf" H 9150 1250 50  0001 C CNN
+	1    9150 1550
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

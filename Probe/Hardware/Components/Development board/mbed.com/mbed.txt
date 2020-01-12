@@ -1,1 +1,0 @@
-https://os.mbed.com/platforms/ST-Nucleo-F411RE/

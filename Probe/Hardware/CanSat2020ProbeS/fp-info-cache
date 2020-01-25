@@ -1,4 +1,4 @@
--9206999872827301939
+-9206996712849976939
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -67158,6 +67158,13 @@ BME280
 4
 4
 Switch
+Batt_PHS_Hor_Long18mm
+
+
+0
+3
+3
+Switch
 MPU-9250
 
 
@@ -67173,6 +67180,13 @@ MPU-9250-4pin
 4
 Switch
 Sw1
+
+
+0
+3
+3
+Switch
+Sw_ESP2010
 
 
 0

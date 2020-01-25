@@ -28,6 +28,9 @@ Line no.;Farnell Part No.;RoHS Compliant?;Your Part No.;Notes;Qty;Manufacturer P
 26;;;;;10,0;CC0805KRX7R9BB103;YAGEO;Keramický kondenzátor CKS0805 10n/50V X7R 10% YAGEO;;2,00;20,00;;https://www.gme.cz/cks0805-10n-50v-x7r-10-yageo 
 27;;;;;5,0;CC0805KKX5R6BB475;YAGEO;Keramický kondenzátor CKS0805 4,7u/10V X5R 10% YAGEO;;4,50;22,50;;https://www.gme.cz/cks0805-4-7u-10v-x5r-10-yageo 
 28;;;;;2,0;RFM69W-433S2;HOPE MICROELECTRONICS;HOPE MICROELECTRONICS RFM69W-433S2;;93,40;186,80;;https://www.tme.eu/cz/details/rfm69w-433s2/moduly-rf/hope-microelectronics/
+29;;;;;2,0;;;Konektor se zámkem PSH02-03WG, Konektor se zámkem do DPS 3 kontaktů, rozteč 2,54mm;;4,40;8,80;;https://www.gme.cz/konektor-se-zamkem-psh02-03wg
+30;;;;;2,0;;;"ECE ESP1010, Přepínač: posuvný; Polohy: 2; SPDT; 0,5A/12VDC; ON-ON";;18,24;36,48;;https://www.tme.eu/cz/details/esp1010/posuvne-prepinace/ece/ 
+31;;;;;2,0;;;"ECE ESP2010, Přepínač: posuvný; Polohy: 2; SPDT; 0,5A/12VDC; ON-ON";;18,67;37,34;;https://www.tme.eu/cz/details/esp2010/posuvne-prepinace/ece/ 
 ;;;;;;;;;;;;;
-;;;;;;;Dílčí součet/Total per component (CZK);2596,1550;;;;;
-;;;;;;;Celkem/Total (CZK);4347,12;;;;;
+;;;;;;;Dílčí součet/Total per component (CZK);2637,4650;;;;;
+;;;;;;;Celkem/Total (CZK);4355,92;;;;;

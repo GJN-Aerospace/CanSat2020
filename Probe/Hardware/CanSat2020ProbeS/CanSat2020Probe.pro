@@ -1,4 +1,4 @@
-update=2020 January 03, Friday 16:30:46
+update=2020 February 29, Saturday 21:42:41
 version=1
 last_client=kicad
 [general]
@@ -29,8 +29,15 @@ MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
 TrackWidth1=0.25
+TrackWidth2=0.254
+TrackWidth3=0.3048
+TrackWidth4=0.4064
+TrackWidth5=0.508
+TrackWidth6=0.635
 ViaDiameter1=0.8
 ViaDrill1=0.4
+ViaDiameter2=1.7
+ViaDrill2=1
 dPairWidth1=0.2
 dPairGap1=0.25
 dPairViaGap1=0.25
@@ -57,7 +64,7 @@ OthersTextUpright=1
 SolderMaskClearance=0.051
 SolderMaskMinWidth=0.25
 SolderPasteClearance=0
-SolderPasteRatio=0
+SolderPasteRatio=-0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
@@ -223,7 +230,7 @@ Enabled=1
 [pcbnew/Layer.F.Fab]
 Enabled=1
 [pcbnew/Layer.Rescue]
-Enabled=1
+Enabled=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/Default]
 Name=Default
@@ -239,7 +246,7 @@ dPairViaGap=0.25
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=/Users/jakubvavra/Documents/GitHub/CanSat2020/Probe/Hardware/CanSat2020ProbeS/
+PlotDirectoryName=/Users/jakubvavra/Desktop/Zk zap 2/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew

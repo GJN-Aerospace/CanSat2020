@@ -5,9 +5,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "Píseň kosmická 2"
+Title "Píseň kosmická II"
 Date "2020-12-28"
-Rev "v01"
+Rev "v02"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -122,7 +122,7 @@ U 1 1 5DCC45A6
 P 3750 6650
 F 0 "U3" H 3750 6992 50  0000 C CNN
 F 1 "LD3985M33R_SOT23" H 3750 6901 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 3750 6975 50  0001 C CIN
+F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 3750 6975 50  0001 C CIN
 F 3 "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00003395.pdf" H 3750 6650 50  0001 C CNN
 	1    3750 6650
 	1    0    0    -1  
@@ -466,17 +466,6 @@ SCK
 Text Label 8300 3450 0    50   ~ 0
 CS_SD
 $Comp
-L Connector:Conn_01x02_Male J8
-U 1 1 5DE8C9E8
-P 2400 1150
-F 0 "J8" H 2450 1400 50  0000 R CNN
-F 1 "Conn_01x02_Male" H 2750 1300 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2400 1150 50  0001 C CNN
-F 3 "~" H 2400 1150 50  0001 C CNN
-	1    2400 1150
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C5
 U 1 1 5E052D24
 P 5650 3350
@@ -642,13 +631,11 @@ F 3 "" H 2800 7150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2800 7100 2800 7150
-Wire Wire Line
-	1200 1100 1450 1100
-Text Label 1450 1100 0    50   ~ 0
-SWCLOCK
-Text Label 1450 1200 0    50   ~ 0
-SWDIO
 Text Label 1450 1300 0    50   ~ 0
+SWCLOCK
+Text Label 1450 1000 0    50   ~ 0
+SWDIO
+Text Label 1450 1400 0    50   ~ 0
 SWO
 Wire Wire Line
 	1200 1200 1450 1200
@@ -807,9 +794,9 @@ Wire Wire Line
 Wire Wire Line
 	1050 3250 1050 3200
 Wire Wire Line
-	1200 1500 1500 1500
+	1200 1500 1450 1500
 Wire Wire Line
-	1500 1500 1500 1550
+	1450 1500 1450 1550
 $Comp
 L power:GND #PWR0137
 U 1 1 5E13BBF7
@@ -853,16 +840,13 @@ NoConn ~ 2700 3450
 NoConn ~ 4100 2050
 NoConn ~ 4100 2150
 NoConn ~ 4100 3250
-NoConn ~ 4100 3350
 NoConn ~ 4100 3750
-NoConn ~ 4100 3850
 NoConn ~ 4100 3950
 NoConn ~ 4100 4150
 NoConn ~ 4100 4250
 NoConn ~ 4100 4350
 NoConn ~ 4100 4450
 NoConn ~ 4100 4750
-NoConn ~ 4100 4850
 NoConn ~ 4100 4950
 NoConn ~ 4100 5050
 NoConn ~ 4100 5150
@@ -926,12 +910,10 @@ Text Label 4500 2250 0    50   ~ 0
 DBGTX
 Text Label 4150 4050 0    50   ~ 0
 SWO
-Text Label 4500 3550 0    50   ~ 0
+Text Label 4500 3350 0    50   ~ 0
 SWDIO
 Text Label 4500 3450 0    50   ~ 0
 SWCLOCK
-Wire Wire Line
-	4100 2850 4500 2850
 Wire Wire Line
 	1200 1400 1450 1400
 Wire Wire Line
@@ -960,17 +942,17 @@ F 3 "" H 2000 2300 50  0001 C CNN
 $EndComp
 Text Label 2200 2050 0    50   ~ 0
 RST
-Text Label 1450 1400 0    50   ~ 0
+Text Label 1450 1200 0    50   ~ 0
 RST
 $Comp
 L power:GND #PWR0132
 U 1 1 5E1C680C
-P 1500 1550
-F 0 "#PWR0132" H 1500 1300 50  0001 C CNN
-F 1 "GND" V 1505 1422 50  0000 R CNN
-F 2 "" H 1500 1550 50  0001 C CNN
-F 3 "" H 1500 1550 50  0001 C CNN
-	1    1500 1550
+P 1450 1550
+F 0 "#PWR0132" H 1450 1300 50  0001 C CNN
+F 1 "GND" V 1455 1422 50  0000 R CNN
+F 2 "" H 1450 1550 50  0001 C CNN
+F 3 "" H 1450 1550 50  0001 C CNN
+	1    1450 1550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1097,8 +1079,6 @@ Wire Wire Line
 Wire Wire Line
 	4100 3050 4500 3050
 Wire Wire Line
-	4100 3550 4500 3550
-Wire Wire Line
 	4100 3450 4500 3450
 Wire Wire Line
 	4100 4050 4150 4050
@@ -1119,17 +1099,6 @@ Wire Wire Line
 	4100 2250 4500 2250
 Wire Wire Line
 	2700 2050 2200 2050
-$Comp
-L Connector:Conn_01x05_Male J7
-U 1 1 5DE8D72E
-P 1000 1300
-F 0 "J7" H 1108 1681 50  0000 C CNN
-F 1 "Conn_01x05_Male" H 1108 1590 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 1000 1300 50  0001 C CNN
-F 3 "~" H 1000 1300 50  0001 C CNN
-	1    1000 1300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4100 2450 4500 2450
 Text Label 4500 2450 0    50   ~ 0
@@ -1138,7 +1107,7 @@ Text Label 4500 3150 0    50   ~ 0
 DIO0
 Text Label 4500 2950 0    50   ~ 0
 RX
-Text Label 4500 2850 0    50   ~ 0
+Text Label 4500 3850 0    50   ~ 0
 CS_RAD
 Text Label 4500 3050 0    50   ~ 0
 TX
@@ -1192,7 +1161,7 @@ L power:+3V3 #PWR0118
 U 1 1 5DDD1110
 P 4350 4000
 F 0 "#PWR0118" H 4350 3850 50  0001 C CNN
-F 1 "+3V3" H 4365 4173 50  0000 C CNN
+F 1 "+3V3" H 4450 3950 50  0000 C CNN
 F 2 "" H 4350 4000 50  0001 C CNN
 F 3 "" H 4350 4000 50  0001 C CNN
 	1    4350 4000
@@ -1203,7 +1172,7 @@ L power:+3V3 #PWR0117
 U 1 1 5DDD0670
 P 4650 4050
 F 0 "#PWR0117" H 4650 3900 50  0001 C CNN
-F 1 "+3V3" H 4665 4223 50  0000 C CNN
+F 1 "+3V3" H 4750 4000 50  0000 C CNN
 F 2 "" H 4650 4050 50  0001 C CNN
 F 3 "" H 4650 4050 50  0001 C CNN
 	1    4650 4050
@@ -1330,4 +1299,65 @@ F 3 "https://www.hoperf.com/data/upload/portal/20181127/5bfcbe34756e1.pdf" H 915
 	1    9150 1550
 	1    0    0    -1  
 $EndComp
+NoConn ~ 4100 3550
+Wire Wire Line
+	4500 3350 4100 3350
+$Comp
+L Connector:Conn_01x06_Male J7
+U 1 1 5E4112AB
+P 1000 1200
+F 0 "J7" H 1050 1650 50  0000 C CNN
+F 1 "Conn_01x06_Male" H 1050 1550 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 1000 1200 50  0001 C CNN
+F 3 "~" H 1000 1200 50  0001 C CNN
+	1    1000 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0134
+U 1 1 5E4290A9
+P 1800 1000
+F 0 "#PWR0134" H 1800 850 50  0001 C CNN
+F 1 "+3V3" H 1815 1173 50  0000 C CNN
+F 2 "" H 1800 1000 50  0001 C CNN
+F 3 "" H 1800 1000 50  0001 C CNN
+	1    1800 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J8
+U 1 1 5E32C6CF
+P 2400 1250
+F 0 "J8" H 2500 1600 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 2500 1500 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2400 1250 50  0001 C CNN
+F 3 "~" H 2400 1250 50  0001 C CNN
+	1    2400 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0138
+U 1 1 5E3377AE
+P 2800 1400
+F 0 "#PWR0138" H 2800 1150 50  0001 C CNN
+F 1 "GND" H 2805 1227 50  0000 C CNN
+F 2 "" H 2800 1400 50  0001 C CNN
+F 3 "" H 2800 1400 50  0001 C CNN
+	1    2800 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 1350 2800 1350
+Wire Wire Line
+	2800 1350 2800 1400
+NoConn ~ 4100 4850
+Wire Wire Line
+	4100 3850 4500 3850
+NoConn ~ 4100 2850
+Wire Wire Line
+	1200 1000 1450 1000
+Wire Wire Line
+	1800 1100 1800 1000
+Wire Wire Line
+	1200 1100 1800 1100
 $EndSCHEMATC

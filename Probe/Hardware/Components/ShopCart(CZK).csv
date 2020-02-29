@@ -21,16 +21,16 @@ Line no.;Farnell Part No.;RoHS Compliant?;Your Part No.;Notes;Qty;Manufacturer P
 19;1469860;RoHS: Y-EX / FTALÁTY: YES;;;10.0;CRCW0805100KFKEA;VISHAY;VISHAY  SMD Čipový Rezistor, Tlustý Film, 0805 [2012 Metrické], 100 kohm, Série CRCW, 150 V, Thick Film;85066;2,1000;21,00;;https://cz.farnell.com/vishay/crcw0805100kfkea/res-100k-1-0-125w-0805-thick-film/dp/1469860
 20;2096159;RoHS: YES / FTALÁTY: YES;;;1.0;66089-0406;ANAREN;ANAREN  Anténa, Prutová, Přímý RF, U.Fl, 433MHz;227;163,4260;163,43;;https://cz.farnell.com/anaren/66089-0406/antenna-66089-04c-433mhz-u-fl/dp/2096159
 21;2335181;RoHS: YES / FTALÁTY: YES;;;5.0;1N4004-E3/54;VISHAY;VISHAY  Dioda se Standard Charakterist Obnovení, 400 V, 1 A, Samostatná, 1.1 V, 30 A;32455;4,0330;20,17;;https://cz.farnell.com/vishay/1n4004-e3-54/rectifier-standard-1a-400v-do/dp/2335181
-22;;;;;1,0;;;Arduino Senzor tlaku, teploty a vlhkosti BME280;;233,00;233,00;;https://www.laskarduino.cz/arduino-senzor-tlaku--teploty-a-vlhkosti-bme280/
-23;;;;;1,0;;;Arduino 9DOF Gyroskop + Akcelerometr + Magnetometr MPU-9250 SPI/IIC;;198,00;198,00;;https://www.laskarduino.cz/arduino-9dof-gyroskop-akcelerometr-magnetometr-mpu-9250-spi-iic/ 
-24;;; ;;2,0;SL19-121;CANAL ELECTRONIC;Posuvný spínač SL19-121;;27,00;54,00;;https://www.gme.cz/sl19-121
-25;;;;;8,0;RC0805FR-0710KL;YAGEO;SMD Rezistor R0805 10k 1% YAGEO;;3,30;26,40;;https://www.gme.cz/r0805-10k-1-yageo 
-26;;;;;10,0;CC0805KRX7R9BB103;YAGEO;Keramický kondenzátor CKS0805 10n/50V X7R 10% YAGEO;;2,00;20,00;;https://www.gme.cz/cks0805-10n-50v-x7r-10-yageo 
+22;1833850;RoHS: YES / FTALÁTY: YES;;;10.0;08051C103K4Z2A;AVX;AVX  SMD Vícevrstvý Keramický Kondenzátor, 10000 pF, 100 V, 0805 [2012 Metrické], ± 10%, X7R, Série MLCC;2700;5.9190;59.19;;https://cz.farnell.com/avx/08051c103k4z2a/cap-0-01-f-100v-10-x7r-0805/dp/1833850
+23;;;;;1,0;;;Arduino Senzor tlaku, teploty a vlhkosti BME280;;233,00;233,00;;https://www.laskarduino.cz/arduino-senzor-tlaku--teploty-a-vlhkosti-bme280/
+24;;;;;1,0;;;Arduino 9DOF Gyroskop + Akcelerometr + Magnetometr MPU-9250 SPI/IIC;;198,00;198,00;;https://www.laskarduino.cz/arduino-9dof-gyroskop-akcelerometr-magnetometr-mpu-9250-spi-iic/ 
+25;;; ;;2,0;SL19-121;CANAL ELECTRONIC;Posuvný spínač SL19-121;;27,00;54,00;;https://www.gme.cz/sl19-121
+26;;;;;8,0;RC0805FR-0710KL;YAGEO;SMD Rezistor R0805 10k 1% YAGEO;;3,30;26,40;;https://www.gme.cz/r0805-10k-1-yageo 
 27;;;;;5,0;CC0805KKX5R6BB475;YAGEO;Keramický kondenzátor CKS0805 4,7u/10V X5R 10% YAGEO;;4,50;22,50;;https://www.gme.cz/cks0805-4-7u-10v-x5r-10-yageo 
 28;;;;;2,0;RFM69W-433S2;HOPE MICROELECTRONICS;HOPE MICROELECTRONICS RFM69W-433S2;;93,40;186,80;;https://www.tme.eu/cz/details/rfm69w-433s2/moduly-rf/hope-microelectronics/
 29;;;;;2,0;;;Konektor se zámkem PSH02-03WG, Konektor se zámkem do DPS 3 kontaktů, rozteč 2,54mm;;4,40;8,80;;https://www.gme.cz/konektor-se-zamkem-psh02-03wg
-30;;;;;2,0;;;"ECE ESP1010, Přepínač: posuvný; Polohy: 2; SPDT; 0,5A/12VDC; ON-ON";;18,24;36,48;;https://www.tme.eu/cz/details/esp1010/posuvne-prepinace/ece/ 
-31;;;;;2,0;;;"ECE ESP2010, Přepínač: posuvný; Polohy: 2; SPDT; 0,5A/12VDC; ON-ON";;18,67;37,34;;https://www.tme.eu/cz/details/esp2010/posuvne-prepinace/ece/ 
+30;;;;;2,0;;;"ECE ESP2010, Přepínač: posuvný; Polohy: 2; SPDT; 0,5A/12VDC; ON-ON";;18,67;37,34;;https://www.tme.eu/cz/details/esp2010/posuvne-prepinace/ece/ 
+31;;;;;1,0;120306Z33-10;;Fotocuprextit 160x100x1,5mm, dvouvrstvý, FR4 BEP100160A2;;96,00;96,00;;https://www.gme.cz/fotocuprextit-fr4-160x100x1-5-dvouvrstvy 
 ;;;;;;;;;;;;;
-;;;;;;;Dílčí součet/Total per component (CZK);2637,4650;;;;;
-;;;;;;;Celkem/Total (CZK);4355,92;;;;;
+;;;;;;;Dílčí součet/Total per component (CZK);2713,2250;;;;;
+;;;;;;;Celkem/Total (CZK);4469,26;;;;;

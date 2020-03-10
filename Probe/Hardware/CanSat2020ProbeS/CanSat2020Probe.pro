@@ -1,4 +1,4 @@
-update=2020 February 29, Saturday 21:42:41
+update=2020 March 10, Tuesday 20:26:51
 version=1
 last_client=kicad
 [general]
@@ -246,7 +246,7 @@ dPairViaGap=0.25
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=/Users/jakubvavra/Desktop/Zk zap 2/
+PlotDirectoryName=./
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew

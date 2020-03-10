@@ -1,0 +1,142 @@
+Detailní popis produktu
+
+Nabíječka Li-ion článku TP4056 s ochranou microUSB
+
+Tento model je určen pro nabíjení lithiových akumulátorů, s použitím konstantního proudu / konstantního napětí (CC/CV). Kromě toho, že tento modul bezpečně lithiové baterie nabíjí, poskytuje jim rovněž požadovanou ochranu. Níže uvádíme funkce ochrany, které tento modul poskytuje.
+
+Funkce ochrany:
+
+Tento modul používá regulátor nabíjení TP4056 Li-Ion IC a samostatnou ochranu IC. Na trhu existují další typy modulů, které používají TP4056, ale ty nemají žádné ochranné obvody nebo IS pro poskytnutí potřebné ochrany lithiových baterií. Tento modul používá jak TP4056, tak DW01A. Tato kombinace pak má v praxi následující funkce ochrany:
+
+Řízení konstantního proudu a konstantní napětí pro nabíjení připojené lithiové baterie,
+Ochrana proti vybíjení – chrání baterii proti vybití pod 2.4V, což je minimum pro „zdraví“ baterie,
+Pokud se připojený akumulátor vybije pod 2.4V, modul odpojí baterii, dokud napětí baterie nedosáhne minimálně 3.0V. V tu chvíli modul opět umožní používat baterii. Ačkoli model snižuje výstupní výkon baterie v době jejího vybití, je stále baterii umožněno nabíjet přes diody MOSFETu (FS8205A).
+Ochrana proti přepětí – modul bude baterii bezpečně nabíjet do 4.2V,
+Nadproudová a zkratová ochrana – modul vypne baterie, pokud rychlost vybíjení překročí 3A nebo pokud výstup bude zkrácen,
+Soft-start omezí proud,
+Dobíjení (rekondice baterie) - v případě, že je úroveň napětí připojené baterie menší než 2.9V, bude modul dobíjet proudem 130mA, dokud napětí baterie opět nedosáhne 2.9V, přičemž v tomto okamžiku nabíjení se proud zvyšuje z lineárního na konfigurovaný nabíjecí proud.
+Modul zahrnuje dvě indikační LED diody. Červená LED dioda indikuje nabíjení. Modrá LED dioda indikuje kompletní nabití.
+
+Nabíjecí proud může být nakonfigurován externě s odporem Rprog. (R3, viz diagram). Manuál pro TP4056 (odkaz v sekci zdrojů níže) zahrnuje tabulku a rovnici pro hodnotu odporu, která bude použita pro konfiguraci různých nabíjecích proudů.
+
+Modul spotřebovává velmi malé množství proudu (µA), když je připojen k baterii. Je dobré to nechat připojené k baterii po delší dobu. Pokud ovšem máte v plánu nenabíjet baterii po dobu 4 měsíců, doporučujeme modul od baterie odpojit.
+
+Můžete připojit dva lithiové akumulátorové články k vytvoření ekvivalentní jednotné baterie s celkovou kapacitou dvakrát větší, než je kapacita jednotlivých buněk. Nedoporučujeme ale připojení více, jak dvou článků najednou do tohoto modulu.
+
+Specifikace:
+
+Nabíjecí čip	TP4056
+Ochranný čip	DW01A
+MOSFET nabíjení/vybíjení	FS8205A
+Metoda nabíjeni	CC/CV
+Vstupní napětí	4.5~6.0V
+Konstantní nabíjecí proud	1A (nastavitelný)
+Konec nabíjeni (Napětí)	4.2V ±1.5%
+Ochrana proti přepětí
+Detekce	4.3V ±50mV
+Uvolnění	4.1V ±50mV
+Ochrana proti podpětí
+Detekce	2.4V ±100mV
+Uvolnění	3.0V ±100mV
+Nadproudová a zkratová ochrana
+Hranice	3A
+Nadproudová rychlost vypnutí	10~20ms
+Zkratová rychlost vypnutí	5~50µs
+Pomalé nabíjení (Battery Reconditioning)
+Hranice do	2.9V ±0.1V
+Proud	130mA ±10mA
+Rozměry
+Délka	28mm
+Šírka	17mm
+Váha	1.6g
+Možností napajení
+
+LA120013-3.png
+LED a programovací odpor
+
+LA120013-4.png
+Nabíjení 1 článku
+
+LA120013-2.png
+Nabíjení 2 článků
+
+LA120013-1.png
+Schéma
+
+TP4056_Protected_Battery_Charger-3.png
+Součástí dodávky:
+
+1ks  Nabíječka Li-ion článku TP4056 s ochranou microUSB
+
+
+
+
+Detailní popis produktu
+
+Nabíječka Li-ion článku TP4056 s ochranou miniUSB
+
+Tento model je určen pro nabíjení lithiových akumulátorů, s použitím konstantního proudu / konstantního napětí (CC/CV). Kromě toho, že tento modul bezpečně lithiové baterie nabíjí, poskytuje jim rovněž požadovanou ochranu. Níže uvádíme funkce ochrany, které tento modul poskytuje.
+
+Funkce ochrany:
+
+Tento modul používá regulátor nabíjení TP4056 Li-Ion IC a samostatnou ochranu IC. Na trhu existují další typy modulů, které používají TP4056, ale ty nemají žádné ochranné obvody nebo IS pro poskytnutí potřebné ochrany lithiových baterií. Tento modul používá jak TP4056, tak DW01A. Tato kombinace pak má v praxi následující funkce ochrany:
+
+Řízení konstantního proudu a konstantní napětí pro nabíjení připojené lithiové baterie,
+Ochrana proti vybíjení – chrání baterii proti vybití pod 2.4V, což je minimum pro „zdraví“ baterie,
+Pokud se připojený akumulátor vybije pod 2.4V, modul odpojí baterii, dokud napětí baterie nedosáhne minimálně 3.0V. V tu chvíli modul opět umožní používat baterii. Ačkoli model snižuje výstupní výkon baterie v době jejího vybití, je stále baterii umožněno nabíjet přes diody MOSFETu (FS8205A).
+Ochrana proti přepětí – modul bude baterii bezpečně nabíjet do 4.2V,
+Nadproudová a zkratová ochrana – modul vypne baterie, pokud rychlost vybíjení překročí 3A nebo pokud výstup bude zkrácen,
+Soft-start omezí proud,
+Dobíjení (rekondice baterie) - v případě, že je úroveň napětí připojené baterie menší než 2.9V, bude modul dobíjet proudem 130mA, dokud napětí baterie opět nedosáhne 2.9V, přičemž v tomto okamžiku nabíjení se proud zvyšuje z lineárního na konfigurovaný nabíjecí proud.
+Modul zahrnuje dvě indikační LED diody. Červená LED dioda indikuje nabíjení. Modrá LED dioda indikuje kompletní nabití.
+
+Nabíjecí proud může být nakonfigurován externě s odporem Rprog. (R3, viz diagram). Manuál pro TP4056 (odkaz v sekci zdrojů níže) zahrnuje tabulku a rovnici pro hodnotu odporu, která bude použita pro konfiguraci různých nabíjecích proudů.
+
+Modul spotřebovává velmi malé množství proudu (µA), když je připojen k baterii. Je dobré to nechat připojené k baterii po delší dobu. Pokud ovšem máte v plánu nenabíjet baterii po dobu 4 měsíců, doporučujeme modul od baterie odpojit.
+
+Můžete připojit dva lithiové akumulátorové články k vytvoření ekvivalentní jednotné baterie s celkovou kapacitou dvakrát větší, než je kapacita jednotlivých buněk. Nedoporučujeme ale připojení více, jak dvou článků najednou do tohoto modulu.
+
+Specifikace:
+
+Nabíjecí čip	TP4056
+Ochranný čip	DW01A
+MOSFET nabíjení/vybíjení	FS8205A
+Metoda nabíjeni	CC/CV
+Vstupní napětí	4.5~6.0V
+Konstantní nabíjecí proud	1A (nastavitelný)
+Konec nabíjeni (Napětí)	4.2V ±1.5%
+Ochrana proti přepětí
+Detekce	4.3V ±50mV
+Uvolnění	4.1V ±50mV
+Ochrana proti podpětí
+Detekce	2.4V ±100mV
+Uvolnění	3.0V ±100mV
+Nadproudová a zkratová ochrana
+Hranice	3A
+Nadproudová rychlost vypnutí	10~20ms
+Zkratová rychlost vypnutí	5~50µs
+Pomalé nabíjení (Battery Reconditioning)
+Hranice do	2.9V ±0.1V
+Proud	130mA ±10mA
+Rozměry
+Délka	28mm
+Šírka	17mm
+Váha	1.6g
+Možností napajení
+
+LA120013-3.png
+LED a programovací odpor
+
+LA120013-4.png
+Nabíjení 1 článku
+
+LA120013-2.png
+Nabíjení 2 článků
+
+LA120013-1.png
+Schéma
+
+TP4056_Protected_Battery_Charger-3.png
+Součástí dodávky:
+
+1ks  Nabíječka Li-ion článku TP4056 s ochranou miniUSB

@@ -1,0 +1,11 @@
+Detailní popis produktu
+
+Převodník 6Pin USB TTL UART, RobotDyn. Bez nutnosti mačkat reset!
+
+Převodník úrovní slouží ke komunikaci mezi PC a zařízením s UART. Využijete jej například pro programování Arduino bez USB portu.
+
+POZOR, už několikrát jsme měli v ruce kus, který měl přehozené piny - Rx a Tx. Jestli Ti nejde nahrát kód, zkus přehodit tyhle dva piny.
+
+Součástí dodávky:
+
+1ks Převodník 6Pin USB TTL UART, RobotDyn

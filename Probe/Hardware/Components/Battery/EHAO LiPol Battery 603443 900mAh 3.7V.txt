@@ -1,0 +1,60 @@
+Detailní popis produktu
+
+EHAO LiPol Baterie 603443 900mAh 3.7V
+
+Lithium polymer (také známý jako "lipo" nebo "lipoly") baterie jsou tenké, lehké a výkonné. Výstup se pohybuje od 3,0 až 4,2V při úplném nabití. Tato baterie má kapacitu 900mAh, celkem kolem 3.3 Wh. Pokud potřebuješ větší (či menší) baterie, máme celou řadu LiPoly baterií.
+
+Součástí baterie je ochranný obvod, který udržuje napětí akumulátoru, aby nebylo příliš vysoké (přebíjení) nebo příliš nízké (nadměrné vybíti), což znamená, že baterie bude odpojena, jakmile bude vybita na 3.0V. Tento obvod chrání baterii též před zkratem. Nicméně, dokonce s touto ochranou je velmi důležité, abys používal pouze LiIon / LiPoly CV/CC nabíječku a nabíjel proudem 500mA, popřípadě menším. Pro rychlejší nabití můžeš také nastavit nabíječku do 900mA. Doporučujeme používat naši nabíječku Li-ion článku TP4056. a nastavit potřebný proud programovacím odporem.
+
+Jako většina LiPo článků, akumulátory, které prodáváme, nemají termistory zabudované. To je důvod, proč navrhujeme nabíjení při 1C nebo ještě méně. 200 až 900 mA je dobrá rychlost, a jsou k dispozici z libovolné USB nabíječky.
+
+Popis produktu:
+
+Typ: LiPol 603443
+Kapacita: 900 mAh
+Napětí: 3.7 V
+Nabíjecí proud: Standard 0.45A (0.5C), rychle: 0.9A (1C)
+Nabíjecí napětí: 4.2V
+Nabíjecí čas: 1-3H(standard); 1H(rychle)
+Nabíjecí methody:
+konstantní proud 0.5C nabíjení do 4.25V,
+konstantní napětí 4.2V nabíjení do proudu 0.05C;
+Ochrana proti úplnému vybití: 3.0V
+Ochrana proti přebíjení: 4.26V
+Teplota vybíjení: -20 až 60°C
+Vnitřní odpor (Měřený): 0,38 Ohm
+Rozměry 43x34x6mm
+Váha: 16.0g
+Součástí dodávky:
+
+1ks EHAO LiPol Baterie 603443 900mAh 3.7V
+Poznámky:
+
+Vzhledem k povaze a vlastnostem Lithium polymerových baterií nejsou tyto baterie vratné a LaskArduino nezodpovídá ani neručí za jakékoli škody, závady, zranění, požáry, popálení kůže nebo jakékoli jiné následky, které mohou nastat při nesprávném nebo správném používání těchto baterií nebo jakéhokoli zařízení nebo položky, se kterou budeš baterii používat, a to včetně následujících nebo používání jakýchkoli pokynů, návodu, nebo rad jakéhokoli druhu od LaskArduino nebo jiných. Koupí tohoto produktu předchozí akceptuješ.
+Nepoužívej s NiMH / NiCd nabíječkami! Také nezatěžuj tyto baterie, nezkratuj, neohýbej nebo nenič. Nikdy nenabíjej nebo nepoužívej bez dozoru. Vždy zkontroluj poškození, přetrh vodičů a zkraty baterie a obvodů. Stejně, jako všechny polymerové baterie – měly by být používány odborníky.
+Tento výrobek není samostatně funkčním celkem a může vyžadovat odbornou montáž.
+Výrobce našich lithiových baterií udává následující varování a upozornění:
+
+Neponořuj baterii do vody nebo jiných kapalin. Uchovej baterii na chladném a suchém místě,
+Nepoužívej a neskladuj baterii do blízko jakéhokoliv zdroje tepla,
+Použij nabíječku, která je jasně uvedeno, že se kompatibilní pro nabíjení baterie a má vhodnou ochranu nabíjení (napětí, proud),
+Neinstaluj baterii opačnou polaritou,
+Nepřipojuj baterii do elektrické zásuvky nebo jiného neslučitelných síly zdroj,
+Baterii do ohně nevyhazuj,
+Nezkratuj baterii. Nepřipojuj kladný a záporný pól k sobě navzájem s kovovým předmětem nebo jiném vodivém materiálem,
+Nepřepravuj ani neskladujte baterie spolu s kovovými předměty, jako jsou spony do vlasů, náhrdelníky, nebo jakýkoli jiný vodivý předmět nebo materiál,
+Neudeří, drtit, propichovat, rozebírat, nebo házet baterii,
+Nepájí přímo terminály baterií nebo akumulátorů,
+Nepropichuj baterii,
+Lithiové baterie by měla být použita pouze s napěťovou, proudovou, a tepelnou ochranou,
+Nepoužívej a nenechávej baterii v prostředí s vysokou teplotou (např na přímém slunečním světle nebo ve vozidle v horkém počasí). Nepřijetí tohoto upozornění může vést k přehřátí baterie a / nebo požáru nebo výbuchu. Také se to sníží výkon baterie a bude to mít vliv na jí životnost,
+Nepoužívej baterii v místech, kde je vysoká statická elektřina, nebo magnetické pole, jinak může dojít k poškození ochranného obvodu, které neuvidíš,
+Pokud dojde k vytečení elektrolytu a dostane do očí, nemně oči! Místo toho, opláchni a umyj oči čistou vodou a ihned zhaň lékařskou pomoc,
+Je-li baterie smrdí, zahřívá, změní barvu nebo tvar, nebo jakýmkoli způsobem se objeví abnormální během používání, nabíjení nebo skladování, ihned ji vyjmi z nabíječky, přístrojů přestaň jej používat,
+V případě, že kontakty baterií znečištěné, vyčisti kontakty suchou látkou před použitím,
+Uvědom si, že vyřazené baterie mohou způsobit požár nebo výbuch. Z tohoto důvodu, nanes izolepu na kontakty akumulátoru před likvidací,
+Doplňkové parametry
+
+Kategorie:	Baterie a akumulátory
+Záruka:	2 roky
+Hmotnost:	0.018 kg

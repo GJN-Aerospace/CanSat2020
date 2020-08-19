@@ -12,4 +12,4 @@ We use as a our Ground Station a baseStation from openCanSat kit. So you can fin
 
 ### Links
 
-openCanSat: <a href="http://kit.sciencein.cz">
+* [openCanSat] (http://kit.sciencein.cz)

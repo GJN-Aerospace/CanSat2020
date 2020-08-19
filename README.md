@@ -2,7 +2,7 @@
 
 <a href="https://github.com/GJN-Aerospace"><img src="https://gjnaerospace.netlify.app/Foto/GJN%20A8.jpg" alt="GJN Aerospace Logo" width="150" align="right"></a>
 
-GitHub repository for CanSat 2020 competitoin. You can find here a design of our CanSat probe but also our Arduino code for openCanSat kit. 
+GitHub repository for CanSat 2020 competitoin. You can find here a design of **our CanSat probe PKII** but also our Arduino code for openCanSat kit. 
 
 ## Probe
 
